@@ -1,0 +1,117 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            62gdhid74v8ah3ps0qzxlyarn285ltvv:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 8
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "19327352832"
+                args:
+                    - config/train_draft.py
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "479582973952"
+                email: rishi7244@gmail.com
+                executable: /Users/rishi/Desktop/fantasy/draftGPT/data/.venv/bin/python
+                git:
+                    commit: 93a43d9a5c22450bbf06e78da2cb6eeef084b717
+                    remote: git@github.com:karpathy/nanoGPT.git
+                host: Rishi-MacBookPro
+                memory:
+                    total: "8589934592"
+                os: macOS-15.3.1-arm64-arm-64bit
+                program: /Users/rishi/Desktop/fantasy/draftGPT/nanoGPT/train.py
+                python: CPython 3.12.3
+                root: /Users/rishi/Desktop/fantasy/draftGPT/nanoGPT
+                startedAt: "2025-08-11T06:53:11.741084Z"
+                writerId: 62gdhid74v8ah3ps0qzxlyarn285ltvv
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+            "4": 3.12.3
+            "5": 0.21.1
+            "12": 0.21.1
+            "13": darwin-arm64
+always_save_checkpoint:
+    value: false
+backend:
+    value: nccl
+batch_size:
+    value: 16
+beta1:
+    value: 0.9
+beta2:
+    value: 0.99
+bias:
+    value: false
+block_size:
+    value: 216
+compile:
+    value: false
+dataset:
+    value: draft
+decay_lr:
+    value: true
+device:
+    value: mps
+dropout:
+    value: 0.2
+dtype:
+    value: float16
+eval_interval:
+    value: 250
+eval_iters:
+    value: 200
+eval_only:
+    value: false
+grad_clip:
+    value: 1
+gradient_accumulation_steps:
+    value: 1
+init_from:
+    value: scratch
+learning_rate:
+    value: 0.001
+log_interval:
+    value: 10
+lr_decay_iters:
+    value: 5000
+max_iters:
+    value: 5000
+min_lr:
+    value: 0.0001
+n_embd:
+    value: 384
+n_head:
+    value: 6
+n_layer:
+    value: 6
+out_dir:
+    value: out-draft
+wandb_log:
+    value: true
+wandb_project:
+    value: draft
+wandb_run_name:
+    value: mini-gpt
+warmup_iters:
+    value: 100
+weight_decay:
+    value: 0.1

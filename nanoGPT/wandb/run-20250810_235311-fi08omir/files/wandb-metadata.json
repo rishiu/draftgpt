@@ -1,0 +1,40 @@
+{
+  "os":  "macOS-15.3.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-08-11T06:53:11.741084Z",
+  "args":  [
+    "config/train_draft.py"
+  ],
+  "program":  "/Users/rishi/Desktop/fantasy/draftGPT/nanoGPT/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "git@github.com:karpathy/nanoGPT.git",
+    "commit":  "93a43d9a5c22450bbf06e78da2cb6eeef084b717"
+  },
+  "email":  "rishi7244@gmail.com",
+  "root":  "/Users/rishi/Desktop/fantasy/draftGPT/nanoGPT",
+  "host":  "Rishi-MacBookPro",
+  "executable":  "/Users/rishi/Desktop/fantasy/draftGPT/data/.venv/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "479582973952"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  8,
+    "swapTotalBytes":  "19327352832",
+    "ramTotalBytes":  "8589934592"
+  },
+  "writerId":  "62gdhid74v8ah3ps0qzxlyarn285ltvv"
+}

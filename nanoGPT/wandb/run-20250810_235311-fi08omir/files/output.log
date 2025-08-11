@@ -1,0 +1,84 @@
+step 0: train loss 6.2918, val loss 6.2929
+iter 0: loss 6.2875, time 137958.47ms, mfu -100.00%
+iter 10: loss 5.5635, time 3085.14ms, mfu 0.03%
+iter 20: loss 4.8850, time 656.24ms, mfu 0.03%
+iter 30: loss 4.3208, time 785.51ms, mfu 0.04%
+iter 40: loss 3.9883, time 940.44ms, mfu 0.05%
+iter 50: loss 3.8354, time 1533.38ms, mfu 0.05%
+iter 60: loss 3.6526, time 2505.73ms, mfu 0.04%
+iter 70: loss 3.6490, time 2447.26ms, mfu 0.04%
+iter 80: loss 3.5753, time 2440.77ms, mfu 0.04%
+iter 90: loss 3.5960, time 2152.05ms, mfu 0.04%
+iter 100: loss 3.6627, time 868.96ms, mfu 0.05%
+iter 110: loss 3.7779, time 875.40ms, mfu 0.05%
+iter 120: loss 3.5640, time 1187.75ms, mfu 0.05%
+iter 130: loss 3.6486, time 4319.76ms, mfu 0.05%
+iter 140: loss 3.4502, time 738.00ms, mfu 0.05%
+iter 150: loss 3.5289, time 1163.42ms, mfu 0.06%
+iter 160: loss 3.4737, time 762.08ms, mfu 0.06%
+iter 170: loss 3.5205, time 1019.02ms, mfu 0.06%
+iter 180: loss 3.4826, time 1049.69ms, mfu 0.06%
+iter 190: loss 3.4486, time 1181.39ms, mfu 0.06%
+iter 200: loss 3.3680, time 782.65ms, mfu 0.07%
+iter 210: loss 3.3265, time 1571.80ms, mfu 0.07%
+iter 220: loss 3.4761, time 567.42ms, mfu 0.07%
+iter 230: loss 3.3632, time 784.23ms, mfu 0.08%
+iter 240: loss 3.4834, time 1528.35ms, mfu 0.07%
+step 250: train loss 3.3117, val loss 3.3168
+saving checkpoint to out-draft
+iter 250: loss 3.3694, time 58050.05ms, mfu 0.07%
+iter 260: loss 3.3195, time 483.15ms, mfu 0.08%
+iter 270: loss 3.2314, time 478.67ms, mfu 0.08%
+iter 280: loss 3.3419, time 484.12ms, mfu 0.09%
+iter 290: loss 3.1759, time 480.42ms, mfu 0.10%
+iter 300: loss 3.4013, time 480.16ms, mfu 0.11%
+iter 310: loss 3.3143, time 457.87ms, mfu 0.11%
+iter 320: loss 3.3933, time 1011.21ms, mfu 0.11%
+iter 330: loss 3.3273, time 820.47ms, mfu 0.11%
+iter 340: loss 3.1856, time 817.18ms, mfu 0.11%
+iter 350: loss 3.2168, time 876.40ms, mfu 0.10%
+iter 360: loss 3.1933, time 827.35ms, mfu 0.10%
+iter 370: loss 3.1405, time 800.09ms, mfu 0.10%
+iter 380: loss 3.1523, time 824.92ms, mfu 0.10%
+iter 390: loss 3.2237, time 1864.56ms, mfu 0.10%
+iter 400: loss 3.2903, time 551.67ms, mfu 0.10%
+iter 410: loss 3.2032, time 482.96ms, mfu 0.11%
+iter 420: loss 3.0901, time 493.51ms, mfu 0.11%
+iter 430: loss 3.1738, time 489.80ms, mfu 0.12%
+iter 440: loss 3.1542, time 464.77ms, mfu 0.12%
+iter 450: loss 3.1142, time 494.10ms, mfu 0.13%
+iter 460: loss 3.4223, time 469.73ms, mfu 0.13%
+iter 470: loss 3.0800, time 477.79ms, mfu 0.13%
+iter 480: loss 3.1715, time 500.91ms, mfu 0.14%
+iter 490: loss 3.1242, time 961.81ms, mfu 0.13%
+step 500: train loss 3.0621, val loss 3.0650
+saving checkpoint to out-draft
+iter 500: loss 3.0687, time 75857.93ms, mfu 0.12%
+iter 510: loss 3.1270, time 908.93ms, mfu 0.11%
+iter 520: loss 3.1270, time 931.58ms, mfu 0.11%
+iter 530: loss 2.9518, time 1414.70ms, mfu 0.11%
+iter 540: loss 3.0549, time 1164.52ms, mfu 0.10%
+iter 550: loss 3.1112, time 734.30ms, mfu 0.10%
+iter 560: loss 3.0496, time 829.45ms, mfu 0.10%
+iter 570: loss 3.2138, time 494.67ms, mfu 0.11%
+iter 580: loss 3.0885, time 489.11ms, mfu 0.11%
+iter 590: loss 3.1177, time 479.73ms, mfu 0.12%
+iter 600: loss 3.0734, time 620.43ms, mfu 0.12%
+iter 610: loss 3.1495, time 488.53ms, mfu 0.12%
+iter 620: loss 3.0560, time 763.69ms, mfu 0.12%
+iter 630: loss 3.1272, time 681.81ms, mfu 0.12%
+iter 640: loss 3.0787, time 478.90ms, mfu 0.12%
+iter 650: loss 3.0038, time 475.92ms, mfu 0.13%
+iter 660: loss 2.9790, time 614.42ms, mfu 0.13%
+iter 670: loss 3.0726, time 604.35ms, mfu 0.13%
+iter 680: loss 2.9926, time 619.88ms, mfu 0.13%
+iter 690: loss 2.9146, time 668.12ms, mfu 0.13%
+iter 700: loss 3.1266, time 640.20ms, mfu 0.13%
+Traceback (most recent call last):
+  File "/Users/rishi/Desktop/fantasy/draftGPT/nanoGPT/train.py", line 347, in <module>
+    X, Y = get_batch('train')
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/rishi/Desktop/fantasy/draftGPT/nanoGPT/train.py", line 170, in get_batch_draft
+    x, y = x.to(device), y.to(device)
+           ^^^^^^^^^^^^
+KeyboardInterrupt

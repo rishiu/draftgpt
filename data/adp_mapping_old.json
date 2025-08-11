@@ -1,0 +1,1482 @@
+{
+  "Ja'Marr Chase": {
+    "overall": 1,
+    "position": "WR"
+  },
+  "Saquon Barkley": {
+    "overall": 2,
+    "position": "RB"
+  },
+  "Bijan Robinson": {
+    "overall": 3,
+    "position": "RB"
+  },
+  "Jahmyr Gibbs": {
+    "overall": 4,
+    "position": "RB"
+  },
+  "Justin Jefferson": {
+    "overall": 5,
+    "position": "WR"
+  },
+  "CeeDee Lamb": {
+    "overall": 6,
+    "position": "WR"
+  },
+  "Derrick Henry": {
+    "overall": 7,
+    "position": "RB"
+  },
+  "Puka Nacua": {
+    "overall": 8,
+    "position": "WR"
+  },
+  "Christian McCaffrey": {
+    "overall": 9,
+    "position": "RB"
+  },
+  "Nico Collins": {
+    "overall": 10,
+    "position": "WR"
+  },
+  "Malik Nabers": {
+    "overall": 11,
+    "position": "WR"
+  },
+  "Ashton Jeanty": {
+    "overall": 12,
+    "position": "RB"
+  },
+  "Amon-Ra St. Brown": {
+    "overall": 13,
+    "position": "WR"
+  },
+  "Brian Thomas Jr.": {
+    "overall": 14,
+    "position": "WR"
+  },
+  "De'Von Achane": {
+    "overall": 15,
+    "position": "RB"
+  },
+  "Jonathan Taylor": {
+    "overall": 16,
+    "position": "RB"
+  },
+  "A.J. Brown": {
+    "overall": 17,
+    "position": "WR"
+  },
+  "Drake London": {
+    "overall": 18,
+    "position": "WR"
+  },
+  "Josh Jacobs": {
+    "overall": 19,
+    "position": "RB"
+  },
+  "Brock Bowers": {
+    "overall": 20,
+    "position": "TE"
+  },
+  "Bucky Irving": {
+    "overall": 21,
+    "position": "RB"
+  },
+  "George Kittle": {
+    "overall": 22,
+    "position": "TE"
+  },
+  "Ladd McConkey": {
+    "overall": 23,
+    "position": "WR"
+  },
+  "Chase Brown": {
+    "overall": 24,
+    "position": "RB"
+  },
+  "Kyren Williams": {
+    "overall": 25,
+    "position": "RB"
+  },
+  "Josh Allen": {
+    "overall": 26,
+    "position": "QB"
+  },
+  "Lamar Jackson": {
+    "overall": 27,
+    "position": "QB"
+  },
+  "Tee Higgins": {
+    "overall": 28,
+    "position": "WR"
+  },
+  "Trey McBride": {
+    "overall": 29,
+    "position": "TE"
+  },
+  "Tyreek Hill": {
+    "overall": 30,
+    "position": "WR"
+  },
+  "Breece Hall": {
+    "overall": 31,
+    "position": "RB"
+  },
+  "Mike Evans": {
+    "overall": 32,
+    "position": "WR"
+  },
+  "Davante Adams": {
+    "overall": 33,
+    "position": "WR"
+  },
+  "James Cook": {
+    "overall": 34,
+    "position": "RB"
+  },
+  "Jaxon Smith-Njigba": {
+    "overall": 35,
+    "position": "WR"
+  },
+  "Jayden Daniels": {
+    "overall": 36,
+    "position": "QB"
+  },
+  "Omarion Hampton": {
+    "overall": 37,
+    "position": "RB"
+  },
+  "Kenneth Walker III": {
+    "overall": 38,
+    "position": "RB"
+  },
+  "Garrett Wilson": {
+    "overall": 39,
+    "position": "WR"
+  },
+  "Jalen Hurts": {
+    "overall": 40,
+    "position": "QB"
+  },
+  "Alvin Kamara": {
+    "overall": 41,
+    "position": "RB"
+  },
+  "Terry McLaurin": {
+    "overall": 42,
+    "position": "WR"
+  },
+  "Marvin Harrison Jr.": {
+    "overall": 43,
+    "position": "WR"
+  },
+  "Chuba Hubbard": {
+    "overall": 44,
+    "position": "RB"
+  },
+  "Joe Burrow": {
+    "overall": 45,
+    "position": "QB"
+  },
+  "James Conner": {
+    "overall": 46,
+    "position": "RB"
+  },
+  "David Montgomery": {
+    "overall": 47,
+    "position": "RB"
+  },
+  "D'Andre Swift": {
+    "overall": 48,
+    "position": "RB"
+  },
+  "DK Metcalf": {
+    "overall": 49,
+    "position": "WR"
+  },
+  "Joe Mixon": {
+    "overall": 50,
+    "position": "RB"
+  },
+  "TreVeyon Henderson": {
+    "overall": 51,
+    "position": "RB"
+  },
+  "Jameson Williams": {
+    "overall": 52,
+    "position": "WR"
+  },
+  "DJ Moore": {
+    "overall": 53,
+    "position": "WR"
+  },
+  "RJ Harvey": {
+    "overall": 54,
+    "position": "RB"
+  },
+  "Courtland Sutton": {
+    "overall": 55,
+    "position": "WR"
+  },
+  "Sam LaPorta": {
+    "overall": 56,
+    "position": "TE"
+  },
+  "Rashee Rice": {
+    "overall": 57,
+    "position": "WR"
+  },
+  "Aaron Jones Sr.": {
+    "overall": 58,
+    "position": "RB"
+  },
+  "Isiah Pacheco": {
+    "overall": 59,
+    "position": "RB"
+  },
+  "Xavier Worthy": {
+    "overall": 60,
+    "position": "WR"
+  },
+  "Kaleb Johnson": {
+    "overall": 61,
+    "position": "RB"
+  },
+  "Patrick Mahomes II": {
+    "overall": 62,
+    "position": "QB"
+  },
+  "Tony Pollard": {
+    "overall": 63,
+    "position": "RB"
+  },
+  "Zay Flowers": {
+    "overall": 64,
+    "position": "WR"
+  },
+  "Tetairoa McMillan": {
+    "overall": 65,
+    "position": "WR"
+  },
+  "DeVonta Smith": {
+    "overall": 66,
+    "position": "WR"
+  },
+  "George Pickens": {
+    "overall": 67,
+    "position": "WR"
+  },
+  "Brian Robinson Jr.": {
+    "overall": 68,
+    "position": "RB"
+  },
+  "Baker Mayfield": {
+    "overall": 69,
+    "position": "QB"
+  },
+  "Calvin Ridley": {
+    "overall": 70,
+    "position": "WR"
+  },
+  "Tyrone Tracy Jr.": {
+    "overall": 71,
+    "position": "RB"
+  },
+  "Mark Andrews": {
+    "overall": 72,
+    "position": "TE"
+  },
+  "Jaylen Waddle": {
+    "overall": 73,
+    "position": "WR"
+  },
+  "Jaylen Warren": {
+    "overall": 74,
+    "position": "RB"
+  },
+  "Bo Nix": {
+    "overall": 75,
+    "position": "QB"
+  },
+  "Jordan Mason": {
+    "overall": 76,
+    "position": "RB"
+  },
+  "Travis Etienne Jr.": {
+    "overall": 77,
+    "position": "RB"
+  },
+  "Quinshon Judkins": {
+    "overall": 78,
+    "position": "RB"
+  },
+  "Travis Hunter": {
+    "overall": 79,
+    "position": "WR"
+  },
+  "T.J. Hockenson": {
+    "overall": 80,
+    "position": "TE"
+  },
+  "Najee Harris": {
+    "overall": 81,
+    "position": "RB"
+  },
+  "Javonte Williams": {
+    "overall": 82,
+    "position": "RB"
+  },
+  "Chris Olave": {
+    "overall": 83,
+    "position": "WR"
+  },
+  "Cam Skattebo": {
+    "overall": 84,
+    "position": "RB"
+  },
+  "Jerry Jeudy": {
+    "overall": 85,
+    "position": "WR"
+  },
+  "Kyler Murray": {
+    "overall": 86,
+    "position": "QB"
+  },
+  "Rhamondre Stevenson": {
+    "overall": 87,
+    "position": "RB"
+  },
+  "Tank Bigsby": {
+    "overall": 88,
+    "position": "RB"
+  },
+  "Jordan Addison": {
+    "overall": 89,
+    "position": "WR"
+  },
+  "Rome Odunze": {
+    "overall": 90,
+    "position": "WR"
+  },
+  "J.K. Dobbins": {
+    "overall": 91,
+    "position": "RB"
+  },
+  "Travis Kelce": {
+    "overall": 92,
+    "position": "TE"
+  },
+  "Zach Charbonnet": {
+    "overall": 93,
+    "position": "RB"
+  },
+  "Deebo Samuel Sr.": {
+    "overall": 94,
+    "position": "WR"
+  },
+  "Chris Godwin": {
+    "overall": 95,
+    "position": "WR"
+  },
+  "Tyjae Spears": {
+    "overall": 96,
+    "position": "RB"
+  },
+  "Jauan Jennings": {
+    "overall": 97,
+    "position": "WR"
+  },
+  "Jayden Reed": {
+    "overall": 98,
+    "position": "WR"
+  },
+  "Ricky Pearsall": {
+    "overall": 99,
+    "position": "WR"
+  },
+  "Rachaad White": {
+    "overall": 100,
+    "position": "RB"
+  },
+  "Jakobi Meyers": {
+    "overall": 101,
+    "position": "WR"
+  },
+  "Ray Davis": {
+    "overall": 102,
+    "position": "RB"
+  },
+  "Stefon Diggs": {
+    "overall": 103,
+    "position": "WR"
+  },
+  "Justin Fields": {
+    "overall": 104,
+    "position": "QB"
+  },
+  "Khalil Shakir": {
+    "overall": 105,
+    "position": "WR"
+  },
+  "Cooper Kupp": {
+    "overall": 106,
+    "position": "WR"
+  },
+  "Evan Engram": {
+    "overall": 107,
+    "position": "TE"
+  },
+  "David Njoku": {
+    "overall": 108,
+    "position": "TE"
+  },
+  "Trey Benson": {
+    "overall": 109,
+    "position": "RB"
+  },
+  "Austin Ekeler": {
+    "overall": 110,
+    "position": "RB"
+  },
+  "Emeka Egbuka": {
+    "overall": 111,
+    "position": "WR"
+  },
+  "Matthew Golden": {
+    "overall": 112,
+    "position": "WR"
+  },
+  "Brandon Aiyuk": {
+    "overall": 113,
+    "position": "WR"
+  },
+  "Nick Chubb": {
+    "overall": 114,
+    "position": "RB"
+  },
+  "Isaac Guerendo": {
+    "overall": 115,
+    "position": "RB"
+  },
+  "Jaydon Blue": {
+    "overall": 116,
+    "position": "RB"
+  },
+  "Jerome Ford": {
+    "overall": 117,
+    "position": "RB"
+  },
+  "Tucker Kraft": {
+    "overall": 118,
+    "position": "TE"
+  },
+  "Rico Dowdle": {
+    "overall": 119,
+    "position": "RB"
+  },
+  "Josh Downs": {
+    "overall": 120,
+    "position": "WR"
+  },
+  "Denver Broncos": {
+    "overall": 289,
+    "position": "TK"
+  },
+  "Philadelphia Eagles": {
+    "overall": 381,
+    "position": "TK"
+  },
+  "Tyler Allgeier": {
+    "overall": 123,
+    "position": "RB"
+  },
+  "Dak Prescott": {
+    "overall": 124,
+    "position": "QB"
+  },
+  "Pittsburgh Steelers": {
+    "overall": 368,
+    "position": "TK"
+  },
+  "Darnell Mooney": {
+    "overall": 126,
+    "position": "WR"
+  },
+  "Bhayshul Tuten": {
+    "overall": 127,
+    "position": "RB"
+  },
+  "Michael Pittman Jr.": {
+    "overall": 128,
+    "position": "WR"
+  },
+  "Baltimore Ravens": {
+    "overall": 384,
+    "position": "TK"
+  },
+  "Brock Purdy": {
+    "overall": 130,
+    "position": "QB"
+  },
+  "Keon Coleman": {
+    "overall": 131,
+    "position": "WR"
+  },
+  "Brandon Aubrey": {
+    "overall": 132,
+    "position": "K"
+  },
+  "Minnesota Vikings": {
+    "overall": 375,
+    "position": "TK"
+  },
+  "Jaylen Wright": {
+    "overall": 134,
+    "position": "RB"
+  },
+  "Buffalo Bills": {
+    "overall": 385,
+    "position": "TK"
+  },
+  "Cameron Dicker": {
+    "overall": 136,
+    "position": "K"
+  },
+  "Justin Herbert": {
+    "overall": 137,
+    "position": "QB"
+  },
+  "Houston Texans": {
+    "overall": 314,
+    "position": "TK"
+  },
+  "Jared Goff": {
+    "overall": 139,
+    "position": "QB"
+  },
+  "Jake Bates": {
+    "overall": 140,
+    "position": "K"
+  },
+  "Braelon Allen": {
+    "overall": 141,
+    "position": "RB"
+  },
+  "Kansas City Chiefs": {
+    "overall": 369,
+    "position": "TK"
+  },
+  "Tyler Warren": {
+    "overall": 143,
+    "position": "TE"
+  },
+  "Wil Lutz": {
+    "overall": 144,
+    "position": "K"
+  },
+  "Dylan Sampson": {
+    "overall": 145,
+    "position": "RB"
+  },
+  "Ka'imi Fairbairn": {
+    "overall": 146,
+    "position": "K"
+  },
+  "Rashid Shaheed": {
+    "overall": 147,
+    "position": "WR"
+  },
+  "Chris Boswell": {
+    "overall": 148,
+    "position": "K"
+  },
+  "Caleb Williams": {
+    "overall": 149,
+    "position": "QB"
+  },
+  "Jonnu Smith": {
+    "overall": 150,
+    "position": "TE"
+  },
+  "Chase McLaughlin": {
+    "overall": 151,
+    "position": "K"
+  },
+  "Roschon Johnson": {
+    "overall": 152,
+    "position": "RB"
+  },
+  "Jayden Higgins": {
+    "overall": 153,
+    "position": "WR"
+  },
+  "Rashod Bateman": {
+    "overall": 154,
+    "position": "WR"
+  },
+  "Evan McPherson": {
+    "overall": 155,
+    "position": "K"
+  },
+  "Harrison Butker": {
+    "overall": 156,
+    "position": "K"
+  },
+  "Marvin Mims Jr.": {
+    "overall": 157,
+    "position": "WR"
+  },
+  "Tre' Harris": {
+    "overall": 158,
+    "position": "WR"
+  },
+  "Blake Corum": {
+    "overall": 159,
+    "position": "RB"
+  },
+  "Christian Kirk": {
+    "overall": 160,
+    "position": "WR"
+  },
+  "Luther Burden III": {
+    "overall": 161,
+    "position": "WR"
+  },
+  "Colston Loveland": {
+    "overall": 162,
+    "position": "TE"
+  },
+  "Tyler Bass": {
+    "overall": 163,
+    "position": "K"
+  },
+  "Dalton Kincaid": {
+    "overall": 164,
+    "position": "TE"
+  },
+  "Detroit Lions": {
+    "overall": 288,
+    "position": "TK"
+  },
+  "Dallas Goedert": {
+    "overall": 166,
+    "position": "TE"
+  },
+  "Jalen McMillan": {
+    "overall": 167,
+    "position": "WR"
+  },
+  "MarShawn Lloyd": {
+    "overall": 168,
+    "position": "RB"
+  },
+  "Washington Commanders": {
+    "overall": 376,
+    "position": "TK"
+  },
+  "Cedric Tillman": {
+    "overall": 170,
+    "position": "WR"
+  },
+  "Marquise Brown": {
+    "overall": 171,
+    "position": "WR"
+  },
+  "Kyle Pitts Sr.": {
+    "overall": 172,
+    "position": "TE"
+  },
+  "Jake Ferguson": {
+    "overall": 173,
+    "position": "TE"
+  },
+  "Drake Maye": {
+    "overall": 174,
+    "position": "QB"
+  },
+  "Kareem Hunt": {
+    "overall": 175,
+    "position": "RB"
+  },
+  "Dallas Cowboys": {
+    "overall": 280,
+    "position": "TK"
+  },
+  "Kendre Miller": {
+    "overall": 177,
+    "position": "RB"
+  },
+  "Justin Tucker": {
+    "overall": 178,
+    "position": "K"
+  },
+  "Jordan Love": {
+    "overall": 179,
+    "position": "QB"
+  },
+  "Quentin Johnston": {
+    "overall": 180,
+    "position": "WR"
+  },
+  "Kyle Williams": {
+    "overall": 181,
+    "position": "WR"
+  },
+  "New York Jets": {
+    "overall": 182,
+    "position": "DST"
+  },
+  "Miles Sanders": {
+    "overall": 183,
+    "position": "RB"
+  },
+  "San Francisco 49ers": {
+    "overall": 378,
+    "position": "TK"
+  },
+  "Justice Hill": {
+    "overall": 185,
+    "position": "RB"
+  },
+  "Romeo Doubs": {
+    "overall": 186,
+    "position": "WR"
+  },
+  "Los Angeles Chargers": {
+    "overall": 284,
+    "position": "TK"
+  },
+  "Kyle Monangai": {
+    "overall": 188,
+    "position": "RB"
+  },
+  "Adam Thielen": {
+    "overall": 189,
+    "position": "WR"
+  },
+  "Matt Gay": {
+    "overall": 190,
+    "position": "K"
+  },
+  "Jason Sanders": {
+    "overall": 191,
+    "position": "K"
+  },
+  "Jack Bech": {
+    "overall": 192,
+    "position": "WR"
+  },
+  "J.J. McCarthy": {
+    "overall": 193,
+    "position": "QB"
+  },
+  "Devin Neal": {
+    "overall": 194,
+    "position": "RB"
+  },
+  "Keenan Allen": {
+    "overall": 195,
+    "position": "WR"
+  },
+  "C.J. Stroud": {
+    "overall": 196,
+    "position": "QB"
+  },
+  "Jake Elliott": {
+    "overall": 197,
+    "position": "K"
+  },
+  "DJ Giddens": {
+    "overall": 198,
+    "position": "RB"
+  },
+  "Hunter Henry": {
+    "overall": 199,
+    "position": "TE"
+  },
+  "DeAndre Hopkins": {
+    "overall": 200,
+    "position": "WR"
+  },
+  "Joshua Palmer": {
+    "overall": 201,
+    "position": "WR"
+  },
+  "Will Shipley": {
+    "overall": 202,
+    "position": "RB"
+  },
+  "Los Angeles Rams": {
+    "overall": 380,
+    "position": "TK"
+  },
+  "Trevor Lawrence": {
+    "overall": 204,
+    "position": "QB"
+  },
+  "Jarquez Hunter": {
+    "overall": 205,
+    "position": "RB"
+  },
+  "Xavier Legette": {
+    "overall": 206,
+    "position": "WR"
+  },
+  "Wan'Dale Robinson": {
+    "overall": 207,
+    "position": "WR"
+  },
+  "Isaiah Likely": {
+    "overall": 208,
+    "position": "TE"
+  },
+  "Seattle Seahawks": {
+    "overall": 387,
+    "position": "TK"
+  },
+  "Brenton Strange": {
+    "overall": 210,
+    "position": "TE"
+  },
+  "DeMario Douglas": {
+    "overall": 211,
+    "position": "WR"
+  },
+  "Brashard Smith": {
+    "overall": 212,
+    "position": "RB"
+  },
+  "Zach Ertz": {
+    "overall": 213,
+    "position": "TE"
+  },
+  "Younghoe Koo": {
+    "overall": 214,
+    "position": "K"
+  },
+  "Jaleel McLaughlin": {
+    "overall": 215,
+    "position": "RB"
+  },
+  "Woody Marks": {
+    "overall": 216,
+    "position": "RB"
+  },
+  "Green Bay Packers": {
+    "overall": 217,
+    "position": "DST"
+  },
+  "Audric Estime": {
+    "overall": 218,
+    "position": "RB"
+  },
+  "Raheem Mostert": {
+    "overall": 219,
+    "position": "RB"
+  },
+  "Tahj Brooks": {
+    "overall": 220,
+    "position": "RB"
+  },
+  "Jacory Croskey-Merritt": {
+    "overall": 221,
+    "position": "RB"
+  },
+  "Miami Dolphins": {
+    "overall": 222,
+    "position": "DST"
+  },
+  "Alec Pierce": {
+    "overall": 223,
+    "position": "WR"
+  },
+  "Matt Prater": {
+    "overall": 224,
+    "position": "K"
+  },
+  "Arizona Cardinals": {
+    "overall": 379,
+    "position": "TK"
+  },
+  "Daniel Carlson": {
+    "overall": 226,
+    "position": "K"
+  },
+  "Keaton Mitchell": {
+    "overall": 227,
+    "position": "RB"
+  },
+  "Elijah Mitchell": {
+    "overall": 228,
+    "position": "RB"
+  },
+  "Jordan James": {
+    "overall": 229,
+    "position": "RB"
+  },
+  "Tua Tagovailoa": {
+    "overall": 230,
+    "position": "QB"
+  },
+  "Mike Gesicki": {
+    "overall": 231,
+    "position": "TE"
+  },
+  "Tyler Loop": {
+    "overall": 232,
+    "position": "K"
+  },
+  "Amari Cooper": {
+    "overall": 233,
+    "position": "WR"
+  },
+  "Zack Moss": {
+    "overall": 234,
+    "position": "RB"
+  },
+  "Cleveland Browns": {
+    "overall": 235,
+    "position": "DST"
+  },
+  "Pat Freiermuth": {
+    "overall": 236,
+    "position": "TE"
+  },
+  "Will Reichard": {
+    "overall": 237,
+    "position": "K"
+  },
+  "Darius Slayton": {
+    "overall": 238,
+    "position": "WR"
+  },
+  "New England Patriots": {
+    "overall": 239,
+    "position": "DST"
+  },
+  "Matthew Stafford": {
+    "overall": 240,
+    "position": "QB"
+  },
+  "Darren Waller": {
+    "overall": 241,
+    "position": "TE"
+  },
+  "Michael Wilson": {
+    "overall": 242,
+    "position": "WR"
+  },
+  "Kenneth Gainwell": {
+    "overall": 243,
+    "position": "RB"
+  },
+  "Calvin Austin III": {
+    "overall": 244,
+    "position": "WR"
+  },
+  "Taysom Hill": {
+    "overall": 245,
+    "position": "TE"
+  },
+  "Bryce Young": {
+    "overall": 246,
+    "position": "QB"
+  },
+  "Jalen Coker": {
+    "overall": 247,
+    "position": "WR"
+  },
+  "Pat Bryant": {
+    "overall": 248,
+    "position": "WR"
+  },
+  "Brandon McManus": {
+    "overall": 249,
+    "position": "K"
+  },
+  "Devin Singletary": {
+    "overall": 250,
+    "position": "RB"
+  },
+  "Michael Penix Jr.": {
+    "overall": 251,
+    "position": "QB"
+  },
+  "Christian Watson": {
+    "overall": 252,
+    "position": "WR"
+  },
+  "Ollie Gordon II": {
+    "overall": 253,
+    "position": "RB"
+  },
+  "Tampa Bay Buccaneers": {
+    "overall": 374,
+    "position": "TK"
+  },
+  "Dont'e Thornton Jr.": {
+    "overall": 255,
+    "position": "WR"
+  },
+  "Sean Tucker": {
+    "overall": 256,
+    "position": "RB"
+  },
+  "Cade Otton": {
+    "overall": 257,
+    "position": "TE"
+  },
+  "Cam Akers": {
+    "overall": 258,
+    "position": "RB"
+  },
+  "Trevor Etienne": {
+    "overall": 259,
+    "position": "RB"
+  },
+  "Chig Okonkwo": {
+    "overall": 260,
+    "position": "TE"
+  },
+  "Jaylin Noel": {
+    "overall": 261,
+    "position": "WR"
+  },
+  "Cameron Ward": {
+    "overall": 262,
+    "position": "QB"
+  },
+  "Mason Taylor": {
+    "overall": 263,
+    "position": "TE"
+  },
+  "Dontayvion Wicks": {
+    "overall": 264,
+    "position": "WR"
+  },
+  "Jalen Royals": {
+    "overall": 265,
+    "position": "WR"
+  },
+  "Adonai Mitchell": {
+    "overall": 266,
+    "position": "WR"
+  },
+  "Ty Johnson": {
+    "overall": 267,
+    "position": "RB"
+  },
+  "Elijah Arroyo": {
+    "overall": 268,
+    "position": "TE"
+  },
+  "Jake Moody": {
+    "overall": 269,
+    "position": "K"
+  },
+  "Tyler Lockett": {
+    "overall": 270,
+    "position": "WR"
+  },
+  "Diontae Johnson": {
+    "overall": 271,
+    "position": "WR"
+  },
+  "Sam Darnold": {
+    "overall": 272,
+    "position": "QB"
+  },
+  "Anthony Richardson Sr.": {
+    "overall": 273,
+    "position": "QB"
+  },
+  "Geno Smith": {
+    "overall": 274,
+    "position": "QB"
+  },
+  "Dyami Brown": {
+    "overall": 275,
+    "position": "WR"
+  },
+  "Julius Chestnut": {
+    "overall": 276,
+    "position": "RB"
+  },
+  "Antonio Gibson": {
+    "overall": 277,
+    "position": "RB"
+  },
+  "Isaiah Davis": {
+    "overall": 278,
+    "position": "RB"
+  },
+  "A.J. Dillon": {
+    "overall": 279,
+    "position": "RB"
+  },
+  "New York Giants": {
+    "overall": 281,
+    "position": "DST"
+  },
+  "Andrei Iosivas": {
+    "overall": 282,
+    "position": "WR"
+  },
+  "Kimani Vidal": {
+    "overall": 283,
+    "position": "RB"
+  },
+  "KaVontae Turpin": {
+    "overall": 285,
+    "position": "WR"
+  },
+  "Dylan Laube": {
+    "overall": 286,
+    "position": "RB"
+  },
+  "Joshua Karty": {
+    "overall": 287,
+    "position": "K"
+  },
+  "Roman Wilson": {
+    "overall": 290,
+    "position": "WR"
+  },
+  "Chris Brooks": {
+    "overall": 291,
+    "position": "RB"
+  },
+  "Rasheen Ali": {
+    "overall": 292,
+    "position": "RB"
+  },
+  "Ray-Ray McCloud III": {
+    "overall": 293,
+    "position": "WR"
+  },
+  "Cooper Rush": {
+    "overall": 294,
+    "position": "QB"
+  },
+  "Eddy Pineiro": {
+    "overall": 295,
+    "position": "K"
+  },
+  "Dare Ogunbowale": {
+    "overall": 296,
+    "position": "RB"
+  },
+  "Aaron Rodgers": {
+    "overall": 297,
+    "position": "QB"
+  },
+  "Eric Gray": {
+    "overall": 298,
+    "position": "RB"
+  },
+  "Cole Kmet": {
+    "overall": 299,
+    "position": "TE"
+  },
+  "Sincere McCormick": {
+    "overall": 300,
+    "position": "RB"
+  },
+  "Ezekiel Elliott": {
+    "overall": 301,
+    "position": "RB"
+  },
+  "Tre Tucker": {
+    "overall": 302,
+    "position": "WR"
+  },
+  "Chicago Bears": {
+    "overall": 303,
+    "position": "DST"
+  },
+  "Indianapolis Colts": {
+    "overall": 382,
+    "position": "TK"
+  },
+  "Hunter Luepke": {
+    "overall": 305,
+    "position": "RB"
+  },
+  "Devaughn Vele": {
+    "overall": 306,
+    "position": "WR"
+  },
+  "Samaje Perine": {
+    "overall": 307,
+    "position": "RB"
+  },
+  "Juwan Johnson": {
+    "overall": 308,
+    "position": "TE"
+  },
+  "Hassan Haskins": {
+    "overall": 309,
+    "position": "RB"
+  },
+  "Dalton Schultz": {
+    "overall": 310,
+    "position": "TE"
+  },
+  "Jalen Tolbert": {
+    "overall": 311,
+    "position": "WR"
+  },
+  "Khalil Herbert": {
+    "overall": 312,
+    "position": "RB"
+  },
+  "Josh Whyle": {
+    "overall": 313,
+    "position": "TE"
+  },
+  "DeeJay Dallas": {
+    "overall": 315,
+    "position": "RB"
+  },
+  "Julian Fleming": {
+    "overall": 316,
+    "position": "WR"
+  },
+  "Tyler Johnson": {
+    "overall": 317,
+    "position": "WR"
+  },
+  "Raheem Blackshear": {
+    "overall": 318,
+    "position": "RB"
+  },
+  "Ben Sinnott": {
+    "overall": 319,
+    "position": "TE"
+  },
+  "Dameon Pierce": {
+    "overall": 320,
+    "position": "RB"
+  },
+  "Emanuel Wilson": {
+    "overall": 321,
+    "position": "RB"
+  },
+  "Carson Steele": {
+    "overall": 322,
+    "position": "RB"
+  },
+  "Cincinnati Bengals": {
+    "overall": 354,
+    "position": "DST"
+  },
+  "Josh Reynolds": {
+    "overall": 324,
+    "position": "WR"
+  },
+  "Feleipe Franks": {
+    "overall": 325,
+    "position": "QB"
+  },
+  "Luke McCaffrey": {
+    "overall": 326,
+    "position": "WR"
+  },
+  "Jason Myers": {
+    "overall": 327,
+    "position": "K"
+  },
+  "Alexander Mattison": {
+    "overall": 328,
+    "position": "RB"
+  },
+  "Michael Burton": {
+    "overall": 329,
+    "position": "RB"
+  },
+  "Phil Mafah": {
+    "overall": 330,
+    "position": "RB"
+  },
+  "Kye Robichaux": {
+    "overall": 331,
+    "position": "RB"
+  },
+  "Jamari Thrash": {
+    "overall": 332,
+    "position": "WR"
+  },
+  "Jake Haener": {
+    "overall": 333,
+    "position": "QB"
+  },
+  "Jalen Nailor": {
+    "overall": 334,
+    "position": "WR"
+  },
+  "Gus Edwards": {
+    "overall": 335,
+    "position": "RB"
+  },
+  "Jawhar Jordan": {
+    "overall": 336,
+    "position": "RB"
+  },
+  "Ja'Tavion Sanders": {
+    "overall": 337,
+    "position": "TE"
+  },
+  "Theo Johnson": {
+    "overall": 338,
+    "position": "TE"
+  },
+  "Jared Wiley": {
+    "overall": 339,
+    "position": "TE"
+  },
+  "Marquez Valdes-Scantling": {
+    "overall": 340,
+    "position": "WR"
+  },
+  "Jermar Jefferson": {
+    "overall": 341,
+    "position": "RB"
+  },
+  "Ronnie Rivers": {
+    "overall": 342,
+    "position": "RB"
+  },
+  "Tyler Badie": {
+    "overall": 343,
+    "position": "RB"
+  },
+  "Elic Ayomanor": {
+    "overall": 344,
+    "position": "WR"
+  },
+  "Deshaun Watson": {
+    "overall": 345,
+    "position": "QB"
+  },
+  "Rondale Moore": {
+    "overall": 346,
+    "position": "WR"
+  },
+  "Tory Horton": {
+    "overall": 347,
+    "position": "WR"
+  },
+  "Damien Martinez": {
+    "overall": 348,
+    "position": "RB"
+  },
+  "Zamir White": {
+    "overall": 349,
+    "position": "RB"
+  },
+  "Joey Slye": {
+    "overall": 350,
+    "position": "K"
+  },
+  "Elijah Moore": {
+    "overall": 351,
+    "position": "WR"
+  },
+  "Cam Little": {
+    "overall": 352,
+    "position": "K"
+  },
+  "LeQuint Allen Jr.": {
+    "overall": 353,
+    "position": "RB"
+  },
+  "Ty Chandler": {
+    "overall": 355,
+    "position": "RB"
+  },
+  "Alec Ingold": {
+    "overall": 356,
+    "position": "RB"
+  },
+  "Tutu Atwell": {
+    "overall": 357,
+    "position": "WR"
+  },
+  "Chris Rodriguez Jr.": {
+    "overall": 358,
+    "position": "RB"
+  },
+  "Sione Vaki": {
+    "overall": 359,
+    "position": "RB"
+  },
+  "Brock Lampe": {
+    "overall": 360,
+    "position": "RB"
+  },
+  "Israel Abanikanda": {
+    "overall": 361,
+    "position": "RB"
+  },
+  "Jamaal Williams": {
+    "overall": 362,
+    "position": "RB"
+  },
+  "Kyle Juszczyk": {
+    "overall": 363,
+    "position": "RB"
+  },
+  "Amar Johnson": {
+    "overall": 364,
+    "position": "RB"
+  },
+  "Tank Dell": {
+    "overall": 365,
+    "position": "WR"
+  },
+  "Keilan Robinson": {
+    "overall": 366,
+    "position": "RB"
+  },
+  "Isaac TeSlaa": {
+    "overall": 367,
+    "position": "WR"
+  },
+  "Tyquan Thornton": {
+    "overall": 370,
+    "position": "WR"
+  },
+  "Nick Westbrook-Ikhine": {
+    "overall": 371,
+    "position": "WR"
+  },
+  "Terrance Ferguson": {
+    "overall": 372,
+    "position": "TE"
+  },
+  "Russell Wilson": {
+    "overall": 373,
+    "position": "QB"
+  },
+  "Atlanta Falcons": {
+    "overall": 377,
+    "position": "TK"
+  },
+  "Las Vegas Raiders": {
+    "overall": 383,
+    "position": "TK"
+  },
+  "Lan Larison": {
+    "overall": 386,
+    "position": "RB"
+  },
+  "Hunter Renfrow": {
+    "overall": 388,
+    "position": "WR"
+  },
+  "Kayshon Boutte": {
+    "overall": 389,
+    "position": "WR"
+  }
+}
