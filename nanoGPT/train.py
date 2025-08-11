@@ -181,11 +181,17 @@ best_val_loss = 1e9
 # attempt to derive vocab_size from the dataset
 meta_path = os.path.join(data_dir, 'meta.pkl')
 meta_vocab_size = None
+meta_num_positions = 0
+meta_player_pos_idx = None
 if os.path.exists(meta_path):
     with open(meta_path, 'rb') as f:
         meta = pickle.load(f)
     meta_vocab_size = meta['vocab_size']
+    meta_num_positions = int(meta.get('num_positions', 0))
+    meta_player_pos_idx = meta.get('player_pos_idx', None)
     print(f"found vocab_size = {meta_vocab_size} (inside {meta_path})")
+    if meta_num_positions:
+        print(f"found num_positions = {meta_num_positions} (inside {meta_path})")
 
 # model init
 model_args = dict(n_layer=n_layer, n_head=n_head, n_embd=n_embd, block_size=block_size,
@@ -197,8 +203,20 @@ if init_from == 'scratch':
     if meta_vocab_size is None:
         print("defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)")
     model_args['vocab_size'] = meta_vocab_size if meta_vocab_size is not None else 50304
+    # pass num_positions if available
+    if meta_num_positions:
+        model_args['num_positions'] = meta_num_positions
+    else:
+        model_args['num_positions'] = 0
     gptconf = GPTConfig(**model_args)
     model = GPT(gptconf)
+    # set player_pos_idx buffer if available
+    if model_args['num_positions'] > 0 and meta_player_pos_idx is not None:
+        buf = torch.tensor(meta_player_pos_idx, dtype=torch.long)
+        if buf.numel() != model.config.vocab_size:
+            raise ValueError(f"player_pos_idx length {buf.numel()} != vocab_size {model.config.vocab_size}")
+        with torch.no_grad():
+            model.player_pos_idx.copy_(buf)
 elif init_from == 'resume':
     print(f"Resuming training from {out_dir}")
     # resume training from a checkpoint.
@@ -207,8 +225,9 @@ elif init_from == 'resume':
     checkpoint_model_args = checkpoint['model_args']
     # force these config attributes to be equal otherwise we can't even resume training
     # the rest of the attributes (e.g. dropout) can stay as desired from command line
-    for k in ['n_layer', 'n_head', 'n_embd', 'block_size', 'bias', 'vocab_size']:
-        model_args[k] = checkpoint_model_args[k]
+    for k in ['n_layer', 'n_head', 'n_embd', 'block_size', 'bias', 'vocab_size', 'num_positions']:
+        if k in checkpoint_model_args:
+            model_args[k] = checkpoint_model_args[k]
     # create the model
     gptconf = GPTConfig(**model_args)
     model = GPT(gptconf)

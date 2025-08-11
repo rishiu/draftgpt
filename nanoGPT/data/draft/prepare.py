@@ -171,19 +171,61 @@ def write_bin_files(sequences: List[List[int]]):
     print(f"Wrote {val.size} int16 tokens to {val_path} ({val.shape[0]} sequences)")
 
 
+def build_position_meta(name_to_id: Dict[str, int]) -> Tuple[Dict[str, int], Dict[int, str], List[int]]:
+    """
+    Build position vocabulary and per-player position indices aligned to token ids.
+    Returns (position_to_index, index_to_position, player_pos_idx)
+    """
+    with open(MAPPING_PATH, 'r', encoding='utf-8') as f:
+        raw = json.load(f)
+
+    # Collect unique positions for names used in name_to_id
+    positions: List[str] = []
+    for name in name_to_id.keys():
+        props = raw.get(name, {})
+        pos = props.get('position', None)
+        if pos is None:
+            continue
+        if pos not in positions:
+            positions.append(pos)
+    # stable order by alpha for reproducibility
+    positions = sorted(positions)
+    position_to_index: Dict[str, int] = {p: i for i, p in enumerate(positions)}
+    index_to_position: Dict[int, str] = {i: p for p, i in position_to_index.items()}
+
+    vocab_size = len(name_to_id)
+    player_pos_idx: List[int] = [0] * vocab_size
+    for name, pid in name_to_id.items():
+        props = raw.get(name, {})
+        pos = props.get('position', None)
+        idx = position_to_index.get(pos, 0)
+        player_pos_idx[pid] = idx
+
+    return position_to_index, index_to_position, player_pos_idx
+
+
 def write_meta():
     name_to_id, id_to_name = load_name_rank_mapping(MAPPING_PATH)
+
+    # Build position metadata
+    position_to_index, index_to_position, player_pos_idx = build_position_meta(name_to_id)
+
     meta = {
         'vocab_size': len(name_to_id),  # pad value -1 is handled as ignore_index on labels, not in vocab
         'stoi': name_to_id,
         'itos': id_to_name,
         'pad_value': -1,
         'block_size': MAX_LENGTH,
+        # position-related fields
+        'num_positions': len(position_to_index),
+        'position_to_index': position_to_index,
+        'index_to_position': index_to_position,
+        'player_pos_idx': player_pos_idx,
     }
     meta_path = os.path.join(OUT_DIR, 'meta.pkl')
     with open(meta_path, 'wb') as f:
         pickle.dump(meta, f)
-    print(f"Wrote meta to {meta_path} (vocab_size={meta['vocab_size']}, block_size={MAX_LENGTH})")
+    print(f"Wrote meta to {meta_path} (vocab_size={meta['vocab_size']}, block_size={MAX_LENGTH}, num_positions={meta['num_positions']})")
 
 
 if __name__ == '__main__':

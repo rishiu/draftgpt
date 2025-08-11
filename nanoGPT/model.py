@@ -114,6 +114,7 @@ class GPTConfig:
     n_embd: int = 768
     dropout: float = 0.0
     bias: bool = True # True: bias in Linears and LayerNorms, like GPT-2. False: a bit better and faster
+    num_positions: int = 0 # number of player position types (e.g., QB/RB/WR/TE). 0 disables position-type embedding
 
 class GPT(nn.Module):
 
@@ -130,12 +131,21 @@ class GPT(nn.Module):
             h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
             ln_f = LayerNorm(config.n_embd, bias=config.bias),
         ))
+        # Optional position-type embedding (e.g., player position QB/RB/WR/TE)
+        if config.num_positions and config.num_positions > 0:
+            self.wpos = nn.Embedding(config.num_positions, config.n_embd)
+        else:
+            self.wpos = None
+
         self.lm_head = nn.Linear(config.n_embd, config.vocab_size, bias=False)
         # with weight tying when using torch.compile() some warnings get generated:
         # "UserWarning: functional_call was passed multiple values for tied weights.
         # This behavior is deprecated and will be an error in future versions"
         # not 100% sure what this is, so far seems to be harmless. TODO investigate
         self.transformer.wte.weight = self.lm_head.weight # https://paperswithcode.com/method/weight-tying
+
+        # buffer mapping token id -> position-type index (0..num_positions-1). Defaults to zeros
+        self.register_buffer('player_pos_idx', torch.zeros(config.vocab_size, dtype=torch.long))
 
         # init all weights
         self.apply(self._init_weights)
@@ -157,6 +167,8 @@ class GPT(nn.Module):
         n_params = sum(p.numel() for p in self.parameters())
         if non_embedding:
             n_params -= self.transformer.wpe.weight.numel()
+            if self.wpos is None:
+                n_params -= self.wpos.weight.numel()
         return n_params
 
     def _init_weights(self, module):
@@ -176,7 +188,13 @@ class GPT(nn.Module):
         # forward the GPT model itself
         tok_emb = self.transformer.wte(idx) # token embeddings of shape (b, t, n_embd)
         pos_emb = self.transformer.wpe(pos) # position embeddings of shape (t, n_embd)
-        x = self.transformer.drop(tok_emb + pos_emb)
+        x = tok_emb + pos_emb
+        if self.wpos is not None:
+            # look up per-token position-type indices and embed
+            pt_indices = self.player_pos_idx[idx]  # shape (b, t)
+            pos_type_emb = self.wpos(pt_indices)   # shape (b, t, n_embd)
+            x = x + pos_type_emb
+        x = self.transformer.drop(x)
         for block in self.transformer.h:
             x = block(x)
         x = self.transformer.ln_f(x)
@@ -187,7 +205,7 @@ class GPT(nn.Module):
             loss = F.cross_entropy(logits.view(-1, logits.size(-1)), targets.view(-1), ignore_index=-1)
         else:
             # inference-time mini-optimization: only forward the lm_head on the very last position
-            logits = self.lm_head(x[:, [-1], :]) # note: using list [-1] to preserve the time dim
+            logits = self.lm_head(x[:, [[-1]], :].squeeze(2)) if False else self.lm_head(x[:, [-1], :])
             loss = None
 
         return logits, loss

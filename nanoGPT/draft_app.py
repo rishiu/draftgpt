@@ -33,7 +33,8 @@ def load_model(ckpt_path: str, device: str = 'cpu') -> Tuple[GPT, dict]:
     for k in list(state_dict.keys()):
         if k.startswith(unwanted_prefix):
             state_dict[k[len(unwanted_prefix):]] = state_dict.pop(k)
-    model.load_state_dict(state_dict)
+    # allow loading checkpoints saved before position embedding addition
+    model.load_state_dict(state_dict, strict=False)
     model.to(device)
     model.eval()
     return model, model_args
