@@ -80,7 +80,7 @@ def draft_is_supported(meta: dict) -> bool:
     scoring = (meta or {}).get('scoring', '')
     setting = (meta or {}).get('roster_settings', '')
     scoring_bool = scoring in {'PPR', 'Half-PPR', 'Half PPR', 'Half-PPR'.lower(), 'PPR'.lower(), 'STD', 'STD'.lower(), 'Custom', 'Custom'.lower()}
-    setting_bool = setting in {'Default', 'Default'.lower()}
+    setting_bool = setting in {'Default', 'Default'.lower(), '2-QB', '2-QB'.lower()}
     return scoring_bool and setting_bool
 
 
