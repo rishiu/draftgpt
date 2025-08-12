@@ -89,6 +89,7 @@ def encode_draft(players: List[str], name_to_id: Dict[str, int]) -> List[int]:
     for raw_name in players:
         name = normalize_player_name(raw_name)
         if name not in name_to_id:
+            print(f"Unknown player: {name}")
             # skip unknown player; the draft will be discarded by caller if length constraints fail
             return []
         encoded.append(name_to_id[name])

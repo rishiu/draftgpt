@@ -5,6 +5,7 @@ import re
 import sys
 from dataclasses import dataclass
 from typing import List, Optional, Tuple, Dict, Any
+from tqdm import tqdm
 
 import aiohttp
 from aiohttp import ClientSession
@@ -346,7 +347,7 @@ async def main_async(
                     results.append(rec)
 
         tasks = [asyncio.create_task(worker(e["url"])) for e in entries]
-        for f in asyncio.as_completed(tasks):
+        for f in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Processing drafts"):
             try:
                 await f
             except Exception:
